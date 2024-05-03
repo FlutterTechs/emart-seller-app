@@ -1,0 +1,13 @@
+import 'package:emartseller/const/files.dart';
+import 'package:firebase_storage/firebase_storage.dart';
+final auth = FirebaseAuth.instance;
+final firestore = FirebaseFirestore.instance;
+final fireStorage = FirebaseStorage.instance;
+final currentUser = auth.currentUser;
+const vendorCollection = "vendors";
+const product = "products";
+const shop = "shop";
+const chatsCollection = "chats";
+const orders = "Orders";
+const usersCollection = "users";
+const messageCollection = "message";
